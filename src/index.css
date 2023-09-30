@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin-top: 1.2px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    padding-left: 90px;
+}
+
+.bar{
+    width: 600px;
+}
+
+.search-bar{
+    display: flex;
+    width:500px;
+    height: 40px;
+}
+.search{
+    width: 450px;
+    background-color: rgb(21, 20, 20);
+}
+
+.search-icon :hover{
+    cursor: pointer;
+}
+
+.mic{
+    padding-right: 20px;
+}
+.mic-icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-color: rgb(54, 49, 49);
+}
+
+.mic-icon :hover{
+    cursor: pointer;
+}
+
+.right-side{
+    display: flex;
+    margin-left: 20px;
+    /* background-color: antiquewhite; */
+}
+
+.sign-in{
+    display: flex;
+}
+
+.nav{
+    display: flex;
+    padding-top: 13px;
+}
+
+.one{
+    width: 10px;
+}
+
+.vid :hover{
+    cursor: pointer;
+}
+
+.Hero{
+    display: flex;
+}
+
+.card :hover{
+    cursor: pointer;
+}
